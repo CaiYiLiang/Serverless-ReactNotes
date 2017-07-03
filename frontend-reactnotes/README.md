@@ -30,6 +30,7 @@ $ git clone https://github.com/CaiYiLiang/Serverless-ReactNotes.git
 Run it locally.
 
 ``` 
+$ npm install
 $ npm run start
 ```
 

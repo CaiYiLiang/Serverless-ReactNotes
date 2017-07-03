@@ -1,5 +1,5 @@
 # Serverless ReactNotes
-This is a SPA built with React and AWS Serverless service.
+This is a SPA built with React and AWS Serverless service. And this [demo](https://github.com/CaiYiLiang/Serverless-ReactNotes) will keep improving in coming July 2017. Fun:rofl:
 
 ---
 ### Story
@@ -20,11 +20,11 @@ Here is the **[demo](http://cherry-client-bucket.s3-website-us-east-1.amazonaws.
 
 
 ### Structure
-  <img src="./images/Structure.png" alt="Serverless-ReactNotesApp" width="800px">
+  <img src="./images/Structure.png" alt="Serverless-ReactNotesApp" width="680px">
   <br>
 
 
-  - [FrontEnd-ReactNotes]()
+  - [FrontEnd-ReactNotes](https://github.com/CaiYiLiang/Serverless-ReactNotes/tree/master/frontend-reactnotes)
     - SPA - Build with React([Create React App](https://github.com/facebookincubator/create-react-app)) + [React-bootstrap](https://react-bootstrap.github.io/) + [React-Router](https://reacttraining.com/react-router/). 
     - [Amazon Cognito](https://aws.amazon.com/documentation/cognito/)
       - User Singup & Login
@@ -35,24 +35,42 @@ Here is the **[demo](http://cherry-client-bucket.s3-website-us-east-1.amazonaws.
       - Update Notes
       - Delete Notes
 
-   - [BackEnd-serverless-api]()
-      - [Serverless Framework]() - Amazon API Gateway + AWS Lambda
+   - [BackEnd-serverless-api](https://github.com/CaiYiLiang/Serverless-ReactNotes/tree/master/backend-serverless-api)
+      - [Serverless framework](https://serverless.com) - Amazon API Gateway + AWS Lambda
       - Deploy API Gateway
         - Creat Notes
         - Read Notes
         - Update Notes
         - Delete Notes
-      - [Mock test]()
+      - [Mock test](https://github.com/CaiYiLiang/Serverless-ReactNotes/tree/master/backend-serverless-api/mocks)
 
 
 ### Where I got stuck
-    - API Gateway CROS
+
+    - API Gateway CROS Diabled 
+      - checked the API Console
+      - checked [serverless.yml](https://github.com/CaiYiLiang/Serverless-ReactNotes/blob/master/backend-serverless-api/serverless.yml)
+      - Added header response 
 
   <img src="./images/api-gateway-issue1.JPG" alt="api-gateway-issue" width="800px">
   <br>
     <img src="./images/api-gateway-issue2.JPG" alt="api-gateway-issue" width="800px">
   <br>
     <img src="./images/api-gateway-issue3.JPG" alt="api-gateway-issuep" width="800px">
+
+     - Internal Server Error / 403(Forbidden) / 401(Unauthorized)
+       Sometimes the client side will get above responses while there is verified user/content in database and the userToken work in API test Console 
+    
+  <img src="./images/401-issue.JPG.JPG" alt="401-403-issue" width="800px">
+  <br>
+    <img src="./images/401-issue1.JPG.JPG" alt="401-403-issue" width="800px">
+  <br>
+    <img src="./images/401-issue2.JPG.JPG" alt="401-403-issuep" width="800px">
+     
+
+
+
+
 
 
        

@@ -1,6 +1,4 @@
 # Serverless Demo API
-
-[Serverless Stack](http://serverless-stack.com) is a free comprehensive guide to creating full-stack serverless applications.
 ---
 
 
