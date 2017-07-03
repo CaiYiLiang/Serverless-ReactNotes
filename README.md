@@ -1,11 +1,11 @@
 # Serverless ReactNotes
-This is a SPA built with React and AWS Serverless service. And this [demo](https://github.com/CaiYiLiang/Serverless-ReactNotes) will keep improving in coming July 2017. Fun:rofl:
+This is a SPA built with React and AWS Serverless service. And this [demo](https://github.com/CaiYiLiang/Serverless-ReactNotes) will keep improving in coming July 2017. Fun:blush:
 
 ---
 ### Story
 > A problem is a chance for you to improve yourself and do your best.
 
-I have built SPAs with vueJS([demo](https://github.com/CaiYiLiang/vue-demos)) and React([demo](https://github.com/CaiYiLiang/ReactNews)), but it is my first time to get deep into Serverless :thinking: . So what's this, is it something like the heroku or websphere I use before? Then I do some study on Serverless (I asked google/gitter chatroom/[youtube](https://www.youtube.com/watch?v=fSUEk6iMW88&index=1&list=PLzvRQMJ9HDiSQMe68cti8cupI0mzLk1Gc)) and I found no, it is not like backend technicals I applied beore. I feel lucky that I got this chance to study serverless Architectures.
+I have built SPAs with vueJS([demo](https://github.com/CaiYiLiang/vue-demos)) and React([demo](https://github.com/CaiYiLiang/ReactNews)), but it is my first time to get deep into Serverless :thinking: . So what's this, is it something like the heroku or websphere I use before? Then I did some study on Serverless (I asked google/gitter chatroom/[youtube](https://www.youtube.com/watch?v=fSUEk6iMW88&index=1&list=PLzvRQMJ9HDiSQMe68cti8cupI0mzLk1Gc)) and I found no, it is not like backend technicals I applied beore. I feel lucky that I got this chance to study serverless Architectures.
 
 Serverless Stack comes with below advantages:
 - Low maintenance : You don't need to worried about server maintance(Such as the issues I met in my previous company: hight cpu, disk storage and perfoemance), as you push the code to third-party platforms and run there.
@@ -17,7 +17,7 @@ I spent some time on Serverless Architectures and I built a Serverless-ReactNote
 
 I got stuck on seeting issues with API Gateway, the features like Login/Signup/CURD work well,sometimes there will network issue. So the UI may be not perfect.But I will keep on improving this demo:grin:
 Here is the **[demo](http://cherry-client-bucket.s3-website-us-east-1.amazonaws.com/)**
-
+Play around: username hello@world.com / password Hello2World!
 
 ### Structure
   <img src="./images/Structure.png" alt="Serverless-ReactNotesApp" width="680px">
