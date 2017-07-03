@@ -47,7 +47,7 @@ Play around: username hello@world.com / password Hello2World!
 
 ### Where I got stuck
 
-    - API Gateway CROS Diabled 
+ - API Gateway CROS Diabled 
       - checked the API Console
       - checked [serverless.yml](https://github.com/CaiYiLiang/Serverless-ReactNotes/blob/master/backend-serverless-api/serverless.yml)
       - Added header response 
@@ -58,7 +58,7 @@ Play around: username hello@world.com / password Hello2World!
   <br>
     <img src="./images/api-gateway-issue3.JPG" alt="api-gateway-issuep" width="800px">
 
-     - Internal Server Error / 403(Forbidden) / 401(Unauthorized)
+ - Internal Server Error / 403(Forbidden) / 401(Unauthorized)
        Sometimes the client side will get above responses while there is verified user/content in database and the userToken work in API test Console 
     
   <img src="./images/401-issue.JPG" alt="401-403-issue" width="800px">
