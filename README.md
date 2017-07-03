@@ -2,7 +2,7 @@
 This is a SPA built with React and AWS Serverless service.
 
 ---
-#### Story
+### Story
 > A problem is a chance for you to improve yourself and do your best.
 
 I have built SPAs with vueJS([demo](https://github.com/CaiYiLiang/vue-demos)) and React([demo](https://github.com/CaiYiLiang/ReactNews)), but it is my first time to get deep into Serverless :thinking: . So what's this, is it something like the heroku or websphere I use before? Then I do some study on Serverless (I asked google/gitter chatroom/[youtube](https://www.youtube.com/watch?v=fSUEk6iMW88&index=1&list=PLzvRQMJ9HDiSQMe68cti8cupI0mzLk1Gc)) and I found no, it is not like backend technicals I applied beore. I feel lucky that I got this chance to study serverless Architectures.
@@ -19,8 +19,8 @@ I got stuck on seeting issues with API Gateway, the features like Login/Signup/C
 Here is the **[demo](http://cherry-client-bucket.s3-website-us-east-1.amazonaws.com/)**
 
 
-##### Structure
-  <img src="./images/Structure.png" alt="Serverless-ReactNotesApp" width="400px">
+### Structure
+  <img src="./images/Structure.png" alt="Serverless-ReactNotesApp" width="800px">
   <br>
 
 
@@ -45,14 +45,14 @@ Here is the **[demo](http://cherry-client-bucket.s3-website-us-east-1.amazonaws.
       - [Mock test]()
 
 
-##### Where I got stuck
+### Where I got stuck
     - API Gateway CROS
 
-    <img src="./images/api-gateway-issue1.JPG" alt="api-gateway-issue" width="600px">
+  <img src="./images/api-gateway-issue1.JPG" alt="api-gateway-issue" width="800px">
   <br>
-    <img src="./images/api-gateway-issue2.JPG" alt="api-gateway-issue" width="600px">
+    <img src="./images/api-gateway-issue2.JPG" alt="api-gateway-issue" width="800px">
   <br>
-    <img src="./images/api-gateway-issue3.JPG" alt="api-gateway-issuep" width="600px">
+    <img src="./images/api-gateway-issue3.JPG" alt="api-gateway-issuep" width="800px">
 
 
        
