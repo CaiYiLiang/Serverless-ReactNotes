@@ -61,11 +61,11 @@ Play around: username hello@world.com / password Hello2World!
      - Internal Server Error / 403(Forbidden) / 401(Unauthorized)
        Sometimes the client side will get above responses while there is verified user/content in database and the userToken work in API test Console 
     
-  <img src="./images/401-issue.JPG.JPG" alt="401-403-issue" width="800px">
+  <img src="./images/401-issue.JPG" alt="401-403-issue" width="800px">
   <br>
-    <img src="./images/401-issue1.JPG.JPG" alt="401-403-issue" width="800px">
+    <img src="./images/401-issue1.JPG" alt="401-403-issue" width="800px">
   <br>
-    <img src="./images/401-issue2.JPG.JPG" alt="401-403-issuep" width="800px">
+    <img src="./images/401-issue2.JPG" alt="401-403-issuep" width="800px">
      
 
 
