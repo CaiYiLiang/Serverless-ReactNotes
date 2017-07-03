@@ -13,7 +13,7 @@ Serverless Stack comes with below advantages:
 - Easy to scale <br>
 Overall, all you need to worry about is the code.You can foucs on your code,your product and user experience.
 
-I spent some time on Serverless Architectures and I built a Serverless-ReactNotesApp with React([Create React App](https://github.com/facebookincubator/create-react-app)) + [React-bootstrap](https://react-bootstrap.github.io/) + [React-Router](https://reacttraining.com/react-router/) + AWS [S3](https://aws.amazon.com/s3/) + [Serverless Framework](https://serverless.com/framework/)(API Gateway + Lambda) + [Dynamodb](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
+I spent some time on Serverless Architectures and I built a Serverless-ReactNotesApp with <br>React([Create React App](https://github.com/facebookincubator/create-react-app)) + [React-bootstrap](https://react-bootstrap.github.io/) + [React-Router](https://reacttraining.com/react-router/) + AWS [S3](https://aws.amazon.com/s3/) + [Serverless Framework](https://serverless.com/framework/)(API Gateway + Lambda) + [Dynamodb](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
 
 I got stuck on seeting issues with API Gateway, the features like Login/Signup/CURD work well,sometimes there will network issue. So the UI may be not perfect.But I will keep on improving this demo:grin:
 Here is the **[demo](http://cherry-client-bucket.s3-website-us-east-1.amazonaws.com/)**<br>
